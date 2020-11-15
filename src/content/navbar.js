@@ -19,7 +19,7 @@ const navbar = `<nav class="navbar navbar-light bg-light">
 </nav>`;
 
 const renderNavbar = () => {
-    content.insertAdjacentHTML('afterbegin', navbar);
+    content.insertAdjacentHTML('beforebegin', navbar);
 };
 
 export default renderNavbar;

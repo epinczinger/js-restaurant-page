@@ -1,8 +1,12 @@
-import renderNavbar from './content/navbar'
+
+import renderHome from './content/home'
+import renderNavbar from "./content/navbar";
+import renderMenu from './content/menu'
 
 renderNavbar();
+renderHome();
+renderMenu();
 
-const content = document.getElementById("content");
 
-content.appendChild(renderNavbar);
+
 

@@ -2,7 +2,7 @@
     background-color: wheat ;
  background: url(images/bg.jpg) fixed center no-repeat;
  background-size: cover;
- min-height: 65vh;
+ min-height: 90vh;
 }
 
 .contact-detail {
