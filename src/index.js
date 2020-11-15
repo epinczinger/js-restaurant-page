@@ -1,11 +1,8 @@
-import _ from 'lodash';
+import renderNavbar from './content/navbar'
 
-function component() {
-  const element = document.createElement('div');
+renderNavbar();
 
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const content = document.getElementById("content");
 
-  return element;
-}
+content.appendChild(renderNavbar);
 
-document.body.appendChild(component());
