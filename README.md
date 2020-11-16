@@ -8,6 +8,10 @@ The main goal of this project is to show the understanding of the benefits of mo
 
 All the content on the website has been added via JavaScript, and a tab system has been implemented using event listeners to allow the user to switch between "Home", "Contact" and "Menu" views.
 
+## Live Link
+
+Have a look at the [Live Link](https://raw.githack.com/epinczinger/js-restaurant-page/feature/design/dist/index.html)
+
 ## Built With
 
 - JavaScript
