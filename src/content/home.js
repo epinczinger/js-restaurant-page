@@ -10,7 +10,7 @@ const home = `<div class="jumbotron-fluid jumbotron">
     </div>`;
 
 const renderHome = () => {
-    content.insertAdjacentHTML('afterbegin', home);
+  content.insertAdjacentHTML('afterbegin', home);
 };
 
 export default renderHome;

@@ -52,7 +52,7 @@ const contact = `<div class="container-fluid contact-detail">
 `;
 
 const renderContact = () => {
-    content.insertAdjacentHTML('beforeend', contact);
+  content.insertAdjacentHTML('beforeend', contact);
 };
 
 export default renderContact;

@@ -19,7 +19,7 @@ const navbar = `
 </div>`;
 
 const renderNavbar = () => {
-    content.insertAdjacentHTML('beforebegin', navbar);
+  content.insertAdjacentHTML('beforebegin', navbar);
 };
 
 export default renderNavbar;

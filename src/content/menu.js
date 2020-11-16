@@ -1,4 +1,4 @@
-const content = document.getElementById("content");
+const content = document.getElementById('content');
 
 const menu = ` <div class="container-fluid">
       <div class="menu-header bg-light">
@@ -121,7 +121,7 @@ const menu = ` <div class="container-fluid">
     </div>`;
 
 const renderMenu = () => {
-    content.insertAdjacentHTML("beforeend", menu);
+  content.insertAdjacentHTML('beforeend', menu);
 };
 
 export default renderMenu;
