@@ -4,7 +4,7 @@ const navbar = `
 <div class='container'>
   <ul class="navbar nav-pills nav-fill list-unstyled mb-0">
     <li class='nav-item'>
-      <a class="navbar-brand">Argentum Restaurant</a>
+      <img class="navbar-brand" src='../src/images/logo.png'>
     </li>
     <li  class='nav-item'>
       <a href="#" class="nav-link active px-4 ">Home</a>

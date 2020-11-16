@@ -4,8 +4,8 @@ const contact = `<div class="container-fluid contact-detail">
       <div class="d-md-none">
         <div class="card text-center" style="">
           <div class="card-body">
-            <h5 class="card-title">We are waiting for you!</h5>
-            <p class="card-text">
+            <h5 class="card-title " style='font-weight: bold; text-shadow: -3px 0px 6px rgba(200,53,53,1);'>We are waiting for you!</h5>
+            <p class="card-text"  style='font-weight: bold; text-shadow: -3px 0px 6px rgba(200,53,53,1);'>
               Come and have a taste of our chefs creations
             </p>
             <a
@@ -19,7 +19,7 @@ const contact = `<div class="container-fluid contact-detail">
       </div>
       <div class="row d-none d-md-flex">
         <div class="col-12 text-center bg-light py-3">
-          <h2>
+          <h2  style='font-weight: bold; text-shadow: -3px 0px 6px rgba(200,53,53,1);'>
             <svg
               class="bi bi-map"
               width="1em"

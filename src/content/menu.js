@@ -1,14 +1,14 @@
 const content = document.getElementById("content");
 
 const menu = ` <div class="container-fluid">
-      <div class="menu-header">
-        <h1>This is our lovely menu!</h1>
+      <div class="menu-header bg-light">
+        <h1 style='font-weight: bold; text-shadow: -3px 0px 6px rgba(200,53,53,1);'>This is our lovely menu!</h1>
       </div>
       <div class="card-columns">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/burguer.jpg"
+            src="../src/images/burguer.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -24,7 +24,7 @@ const menu = ` <div class="container-fluid">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/dessert-1.jpg"
+            src="../src/images/dessert-1.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -40,7 +40,7 @@ const menu = ` <div class="container-fluid">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/pasta.jpg"
+            src="../src/images/pasta.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -56,7 +56,7 @@ const menu = ` <div class="container-fluid">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/pizza.jpg"
+            src="../src/images/pizza.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -72,7 +72,7 @@ const menu = ` <div class="container-fluid">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/milanesa.jpg"
+            src="../src/images/milanesa.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -88,7 +88,7 @@ const menu = ` <div class="container-fluid">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/dessert-2.jpg"
+            src="../src/images/dessert-2.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
@@ -104,7 +104,7 @@ const menu = ` <div class="container-fluid">
         <div class="card" style="">
           <img
             class="card-img-top"
-            src="images/dessert-3.jpg"
+            src="../src/images/dessert-3.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
