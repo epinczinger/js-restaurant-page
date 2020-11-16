@@ -1,22 +1,22 @@
 const content = document.getElementById('content');
 
-const navbar = `<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand">Argentum Restaurant</a>
-  <div class="">
-    <a href="nav-link" class="px-2">
-      Home
-    </a>
-    <a href="nav-link" class="px-2">
-      Menu
-    </a>
-    <a href="nav-link" class="px-2">
-      Contact
-    </a>
-  </div>
-  <div class="div">
-    <a href=""></a>
-  </div>
-</nav>`;
+const navbar = `
+<div class='container'>
+  <ul class="navbar nav-pills nav-fill list-unstyled mb-0">
+    <li class='nav-item'>
+      <a class="navbar-brand">Argentum Restaurant</a>
+    </li>
+    <li  class='nav-item'>
+      <a href="#" class="nav-link active px-4 ">Home</a>
+    </li>
+    <li class='nav-item'>
+      <a href="#" class="nav-link px-4">Menu</a>
+    </li>
+    <li class='nav-item'>
+      <a href="#" class="nav-link px-4">Contact</a>
+    </li> 
+  </ul>
+</div>`;
 
 const renderNavbar = () => {
     content.insertAdjacentHTML('beforebegin', navbar);
